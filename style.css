@@ -1,0 +1,417 @@
+
+  body {
+   margin: 0;
+   padding: 0;
+    background: linear-gradient( rgba(10, 101, 141, 1) 20%, rgba(17, 175, 243, 1) 58%);
+    
+    font-family: 'Montserrat', sans-serif;
+  }
+    .header {
+            align-items: center;
+            background-color: rgba(87, 68, 68, 1);
+            padding: auto;
+            padding-top: 34px;
+           
+        }
+
+ nav {
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+        }
+  
+.Quadro{
+   display: flex;
+   align-items: center;
+   background: linear-gradient(rgba(10, 196, 255, 1), rgba(97, 0, 0, 1));
+   position: relative;
+   border: 4px dashed rgb(216, 194, 194);
+}
+footer {
+  background: linear-gradient(rgb(9, 71, 8), rgba(31, 206, 27, 1));
+  height: 308px;
+  margin-top: 23%;
+  border-radius: 20% 20% 0 0;
+  position: relative;
+  display: flex;
+}
+ .Texto{
+    color: aliceblue;
+    height: 12%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+
+ }
+.vaso1{
+      display: flex;
+      justify-content: 75px; 
+      align-items: 65px; 
+      height: 300px;
+      position: absolute;
+      bottom: 25%;
+      right: 64%;
+}
+
+.vaso3{
+   display: flex;
+   justify-content: 75px; 
+   align-items: 65px; 
+   height: 300px;
+   position: absolute;
+   bottom: 0%;
+   right: 74%;
+}
+.vaso4{
+   display: flex;
+   justify-content: 75px; 
+   align-items: 65px; 
+   height: 300px;
+   position: absolute;
+   bottom: 25%;
+   right: 64%;
+   left: 36%;
+}
+
+.vaso6{
+display: flex;
+justify-content: 75px; 
+align-items: 65px; 
+height: 300px;
+position: absolute;
+bottom: 0%;
+right: 74%;
+left: 36%;
+}
+.vaso7{
+   display: flex;
+   justify-content: 75px; 
+   align-items: 65px; 
+   height: 300px;
+   position: absolute;
+   bottom: 25%;
+   right: 64%;
+   left: 56%;
+}
+
+.vaso9{
+display: flex;
+justify-content: 75px; 
+align-items: 65px; 
+height: 300px;
+position: absolute;
+bottom: 0%;
+right: 74%;
+left: 65%;
+}
+.Click{
+   align-items: center;
+   position: absolute;
+   display: flex;
+   color: #ffff;
+   margin-left: 35%;
+   margin-top: 98px;
+   border: 5px inset rgb(55, 160, 221);
+}
+.sol{
+  position: absolute;
+  display: flex;
+  height: 289px;
+  margin-top: 153px;
+ 
+}
+.topo{
+   width: 100%;
+   height: 35px;
+   background-color: rgba(87, 68, 68, 1);
+   padding-top: 1px;}  
+   
+
+nav {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+.titulo{
+ align-items: center;
+ position:absolute;
+ display: flex;
+ margin-left: 46%;
+ 
+}
+.info {
+  width: 70%;
+  height: 425px;
+  border: 5px double rgb(59, 46, 6);
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffff;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 106px;
+  left: 16%;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 10px 10px 30px rgba(75, 78, 108, 0.7);
+}
+.grama{
+    background: linear-gradient( rgba(31, 206, 27, 1),rgb(9, 71, 8));
+    width: 99,9%;
+   height: 100px;
+   margin-top: 13%;
+   position: relative;
+   border: 2px solid black;
+}
+.sol2{
+   position: absolute;
+  display: flex;
+  height: 249px;
+  margin-top: 50px;
+  left: 40%;
+}
+.voltar{
+ left: 35px;
+margin-top: 35px; 
+ display: flex;
+ position:absolute;
+}
+.legumes{
+ display: flex;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ height: 154px;
+}
+.sobre{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px; 
+  position: absolute;
+  top: 20px; 
+  left: 7px; 
+  
+}
+.sobre2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; 
+  position: absolute;
+  top: 20px; 
+  left: 7px; 
+  
+}
+.sobre3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px; 
+  position: absolute;
+  top: 20px; 
+  left: 7px; 
+  
+}
+.voltar{
+box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.7);
+ border: 8px outset rgb(39, 167, 226);
+  border-radius: 40px 0 40px 40px;
+}
+  .linha-vertical {
+    height: 308px; 
+    border-left: 276px solid; 
+    position: absolute; 
+    left: 63%; 
+    width: 150px;
+    transform: skew(34deg);
+    color: rgba(209, 143, 66, 1);
+}
+  
+.linha-vertical1 {
+    height: 308px; 
+    border-left: 276px solid; 
+    width: 150px;
+    transform: skew(-34deg);
+    margin-left: 189px; 
+    color: rgba(209, 143, 66, 1);
+}
+@media  screen and (max-width: 1280px) {
+
+  .info {
+    width: 90%;
+    left: 5%;
+    margin-top: 87px;
+  }
+
+  .Texto {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .Click {
+    margin-left: 25%;
+    margin-top: 60px;
+  }
+
+  .vaso1, .vaso3, .vaso4, .vaso6, .vaso7, .vaso9 {
+    height: 30vw;
+    position: absolute;
+    display: flex;
+    
+  }
+  .vaso7{
+  margin-left: 62px;
+  }
+  .titulo {
+    margin-left: 46%;
+    margin-top: 56px;
+  }
+  .linha-vertical, .linha-vertical1 {
+     display: none;
+    }
+     .sol{
+     height: 40vw;
+       margin-top: 200px;
+       left: 10px;
+    }
+  footer {
+       height: 80vw;
+       margin-top: 420px;
+       width: 100vw;
+}
+   .grama {
+       margin-top: 57vw;
+       height: 20vw;
+}
+   .sol2{
+   margin-top: 300px;
+    height: 40vw;
+    right: 18px;
+   }
+   .legumes{
+   display: none;
+   }
+}
+
+@media ( max-width:768px){
+main{min-width: none;}
+ 
+   .header {
+       width: 237vw;
+       
+   }
+
+   .Quadro {
+       width: 236vw;
+       flex-direction: column;
+       height: 75vw;
+   }
+
+   .Texto {
+       margin-top: 90px;
+   }
+
+   .vaso1, .vaso3, .vaso4, .vaso6, .vaso7, .vaso9 {
+        height: 500px; 
+        bottom: initial;
+        right: initial;
+        left: initial;
+        margin-top: 200vw;
+    }
+
+    .vaso1 {
+        top: -40%;
+        right: 7%;
+    }
+
+    .vaso3 {
+        top: 10%;
+        right: 5%;
+    }
+
+    .vaso4 {
+        top: 70%;
+        right: 5%;
+    }
+
+    .vaso6 {
+        top: -40%;
+        left: 100%;
+    }
+
+    .vaso7 {
+        top: 10%;
+        left: 100%;
+    }
+
+    .vaso9 {
+        top: 70%;
+        left: 100%;
+    }
+    .titulo{
+    margin-top: 53px;
+    right: 137px;
+    }
+   
+    .sobre ,.sobre2 {
+    display: flex;
+     font-size: 12px;
+     padding-left: 15px;
+     padding: 12px;
+     top: 0%;
+    }
+    .sobre3{
+     display: flex;
+     font-size: 11px;
+     padding-left: 15px;
+     padding: 12px;
+     top: 0%;
+    }
+  .legumes{
+    display: none;
+    }
+   .sol {
+       height: 500px;
+       margin-top: 100px;
+       position: absolute;
+   }
+
+   .info {
+       width: 90%;
+    left: 5%;
+    margin-top: 87px;
+   }
+
+   .grama {
+       margin-top: 270px;
+   }
+
+   footer {
+       height: 400vw;
+       margin-top: 400px;
+       width: 238vw;
+       
+   }
+    .linha-vertical, .linha-vertical1 {
+     display: none;
+    }
+    .Click{
+     margin-left: 45%;
+    margin-top: 30px;
+    }
+    
+       .sol2{
+   margin-top: 170px;
+    height: 40vw;
+    right: 34px;
+    position: absolute;
+   }
+ .voltar{
+ height: 41px;
+ top: 21px;
+ }
+}
+
